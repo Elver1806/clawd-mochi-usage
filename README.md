@@ -9,6 +9,21 @@ Turn a Clawd Mochi into a USB-C companion for Claude Code. It works without
 Wi-Fi: connected to a computer it shows Clawd's face; on a charger it shows
 its eyes.
 
+## Differences from the original
+
+| | Original | This fork |
+| --- | --- | --- |
+| Screen while connected | Usage card: weekly and five-hour bars, percentages, and reset times | Clawd's animated pixel-art face only |
+| Numbers on screen | Yes | **None.** The usage card is no longer shown |
+| How usage is shown | Exact percentages | Clawd's mood, in five ranges |
+| Background colour | Red | Clawd orange, to match the printed case |
+| On a charger | Normal and animated eyes | Same |
+| Bridge, installers, wiring, USB message | — | Same as the original |
+
+The usage card code is still in the firmware but is no longer part of the
+display rotation. If you want the exact percentages, use the
+[original project](https://github.com/victorgalvez56/clawd-mochi-usage) instead.
+
 ## What it shows
 
 | Situation | Mochi screen |
