@@ -19,6 +19,8 @@ its eyes.
 The face is decorative: it shows no numbers. Its mood follows how much is left
 of the tighter limit (weekly or five-hour):
 
+![Clawd's five moods on the Mochi screen: cool, calm, nervous, sleepy, and dizzy](docs/clawd-faces.gif)
+
 | Left | Clawd |
 | --- | --- |
 | 60–100 % | Cool: "deal with it" sunglasses slide down, smirk |
